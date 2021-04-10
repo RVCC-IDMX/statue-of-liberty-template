@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  font-family: sans-serif;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.desc {
+  width: 50ch;
+  margin-top: 3rem;
+}
+
+.searchmatch {
+  font-weight: bold;
+}
